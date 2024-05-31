@@ -1,0 +1,49 @@
+.aboutus{
+    width: 100%;
+    height: 40vh;
+    float: left;
+    background: url('../images/img/waveabout.png');
+    background-repeat: repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    width:100%;
+    height: auto;
+    padding-bottom: 10vh;
+    float: left;
+    background:url('../images/img/aboutwave2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about1{
+    width: 80%;
+    height:;
+    float: left;
+    background-color: none;
+    margin-left: 15%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    justify-content: center;
+    gap: 5vh;
+}
+.abouta{
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abouta img{
+    border-radius: 10px;
+    box-shadow: -1px 1px 24px 0px rgb(0, 0, 0);
+}
+.aboutb{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

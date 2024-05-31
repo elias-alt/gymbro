@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+}
+.price{
+    width: 100%;
+    height: 40vh;
+    background: #000;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pricing{
+    width: 100%;
+    height: ;
+    padding-bottom: 20vh;
+    float: left;
+    background:url('../images/img/pricingwave2.png')no-repeat;
+    background-size: cover;
+}
+.pricing1{
+    width: 70%;
+    height: ;
+    float: left;
+    margin-left: 15%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    justify-content: space-between;
+    gap: 30px;
+}
+.card{
+    width: 300px;
+    height: auto;
+    text-align: center;
+    background: rgba(9, 9, 9, 0.8);
+    backdrop-filter: blur(6px);
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 5vh 0 10vh 0;
+    border:  1px solid #333;
+    box-shadow: -6px 4px 62px 0px rgba(255,255,255,0.29);
+    transition: 1s ease;
+}
+.card:hover{
+    box-shadow: -3px 2px 20px 10px rgba(255,255,255,0.79);
+    -webkit-box-shadow: -3px 4px 20px 10px rgba(255,255,255,0.79);
+    -moz-box-shadow: -3px 2px 20px 10px rgba(255,255,255,0.79);
+}
+.card2{
+    height: ;
+    margin-top: 0;
+}
+
+.aa{
+    display: block;
+    padding: 8px 24px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #333;
+    position: relative;
+    transition: all .35s;
+    margin:30px 20px;
+    border-radius: 30px;
+  }
+  
+  .aa span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .aa:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: chocolate;
+    transition: all .35s;
+    border-radius: 30px;
+  }
+  
+  .aa:hover{
+    color: #fff;
+  }
+  
+  .aa:hover:after{
+    width: 100%;
+  }
+  .aa:hover .fa-solid{
+    float: left;
+  }

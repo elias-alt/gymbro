@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/contactus.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <script defer src="./js/index.js"></script>
+</head>
+<body>
+    <div style="width: 100%;display: flex;justify-content: end;float: left;">
+        <span style="cursor: pointer; margin-right: 20px;margin-top: 5px; display: flex;gap: 5px;"><i class="fa-regular fa-envelope fa-xs" style="color: #74C0FC;"></i>
+            <i class="fa-brands fa-facebook-f fa-xs" style="color: #74C0FC;"></i>
+            <i class="fa-brands fa-instagram fa-xs" style="color: #74C0FC;"></i>
+            <i class="fa-brands fa-x-twitter fa-xs" style="color: #74C0FC;"></i>
+        </span>
+    </div>
+    <div class="navmobile" onclick="display()">
+        <span class="spana"></span>
+        <span class="spanb"></span>
+        <span class="spanc"></span>
+    </div>
+    <div class="sidenavb" >
+        <a class="sidea" href="" onclick="close()">X</a>
+        <img src="images/img/mlogo.png" alt="logo" width="45px" height="45px">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./aboutus.html">About Us</a></li>
+            <li><a href="./pricing.html">Pricing</a></li>
+            <li><a href="./contactus.html">contact us</a></li>
+        </ul>
+    </div>
+    <div id="navb">
+        <img src="images/img/mlogo.png" alt="logo" width="45px" height="45px">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./aboutus.html">About Us</a></li>
+            <li><a href="./pricing.html">Pricing</a></li>
+            <li><a href="./aboutus.html">contact us</a></li>
+            
+        </ul>
+        
+    </div>
+    <div class="contactus">
+        <div class="contactus1">
+            <form id="formss" class="right formss" action="https://api.web3forms.com/submit" method="POST"style="background: transparent; padding-left: 5vw;padding-right:5vw;">
+                <h1 style="text-align: center; color: #63E6BE;background: none;">Contact</h1>
+                <input type="hidden" name="access_key" value="c4b7889a-97aa-4481-b7f7-1e510b2facc0">
+                <input type="text" name="name" placeholder="Your Name" class="form1 form11">
+                <input type="email" name="email" placeholder="Your Email" class="form1 form12" required>
+                <input type="text" name="Subject" placeholder="Subject" class="form1 form13">
+                <textarea name="message" placeholder="Message" style="width:100%; height:10vw;background: none;resize: none;border: none;border-bottom: 1px solid #2e8bd3;"></textarea>
+                <input type="submit" value="Send Message" class="bn" style="margin-top: 2vw;"> 
+            </form>
+        </div>
+    </div>
+    <div id="footer" style="margin-top: 0;">
+        <div class="footer1">
+            <div style="width: 50%;float: left;"><p style="text-align: center;margin: 0;padding: 0;font-size: 2rem;color: aliceblue;font-weight: 800;">10% Discount</p></div>
+            <div style="width: 50%;float: right;"><form action="">
+                <input type="text" name="text" id="text" placeholder="Email" required>
+                <input type="submit" style="background-color: #FFD43B;">
+            </form>
+            <span>
+            <p><i class="fa-regular fa-envelope" style="color: #74C0FC;"></i> gymbro@gmail.com</p>
+            <p><i class="fa-solid fa-phone" style="color: #74C0FC;"></i> +251 956 643 32</p>
+            </span>   
+        </div>
+        </div>
+        <div style="width: 70%;margin-left:15%; float: left;">
+            <p style="font-size: 1.7rem;font-weight: 700;text-align: center;">GET STARTED WITH GYM BRO TODAY!</p>
+            <p style="text-align: center;font-size: 12px;">At GymBro Mekele, we're genuinely thrilled for
+                 our customers' fitness journeys! Each member
+                  brings unique goals and aspirations,
+                   and we're excited to support them every 
+                   step of the way. Our team is passionate 
+                   about fostering a dynamic and inclusive 
+                   community where everyone feels empowered to
+                    achieve their personal best. Join us and
+                     experience the excitement of reaching new 
+                     heights together!
+            </p>
+            <div style="display: flex;gap: 20px;text-align: center;">
+                <img src="./images/img/app1.jfif" alt="img" width="100px" height="40px" style="cursor: pointer;">
+                <img src="./images/img/app2.jfif" alt="img" width="100px" height="40px" style="cursor: pointer;">
+            </div>    
+        </div>
+        <div style="text-align: center;width: 100%;float: left;">
+            <p style="font-size: 10px;">@2024 - All Right Reserved. Website by Elias
+            </p>
+        </div>
+        <div style="text-align: end;width: 90%;float: left;">
+            <a style="text-decoration: none;color: #fff;font-size: 8px;" href="">Contact Us</a>
+            <a style="text-decoration: none;color: #fff;font-size: 8px;" href="">Privacy Policy</a>
+        </div>
+    </div>
+</body>
+</html>
